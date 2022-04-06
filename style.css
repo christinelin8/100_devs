@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(138, 207, 230);
+    color: white;
+    border: 5px solid rgb(96, 193, 96);
+    font-family: 'Roboto', sans-serif;
+    width: 800px;
+}
+
+nav ul li{
+    list-style: none;
+    font-weight: bold;
+}
+
+.green-li {
+    color: rgb(96, 193, 96);
+}
+
+.top{
+    text-align: center;
+}
+
+h2{
+    padding: 20px;
+}
+
+p{
+    width: 700px;
+    padding: 20px;
+}
+
+img {
+    float: right;
+    margin: 0 0 1em 1em;
+    width: 200px;
+    height: 300px;
+}
