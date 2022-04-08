@@ -1,0 +1,63 @@
+/* NO classes or IDs */
+
+/* Please make only "Just kidding!" yellow */
+
+section h2 {
+    color: yellow;
+}
+
+/* Please make only "twitter" red and 20px */
+
+aside a {
+    color: red;
+    font-size: 20px;
+}
+
+/* Please make "Really hot" purple & "Like WILD hot" larger and blue  */
+
+article h2 {
+    color: purple;
+}
+
+article h2 + h2 {
+    color: blue;
+    font-size: 20px;
+}
+
+/* Please make only bob and pizza green */
+
+nav ul + ul a {
+    color: green;
+}
+
+
+/* <body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#">sunshine</a></li>
+					<li><a href="#">rainbows</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">bob</a></li>
+					<li><a href="#">pizza</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<h1>Look behind you!</h1>
+			<h2>Just kidding!</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqui.
+			</p>
+		</section>
+		<article>
+			<h1>Breaking News: It is hot!</h1>
+			<h2>Really hot</h2>
+			<h2>Like WILD hot</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Read more <a href="#">here</a>
+			</p>
+		</article>
+		<aside>
+			<p>This is an ad. Follow me on <a href="https://leonnoel.com/twitter">twitter</p> and here on twitch!</p>
+		</aside>
+	</body> */
