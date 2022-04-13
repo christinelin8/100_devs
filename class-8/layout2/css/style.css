@@ -30,6 +30,36 @@ body {
 /* LAYOUT
 /*******************************************/
 
+header nav > *{
+  float: left;
+  width: 15%;
+  margin: 0 5%;
+  list-style: none;
+  margin-bottom: 100px;
+}
+
+header nav li {
+  float: left;
+  width: 33%;
+}
+
+img {
+  width: 500px;
+}
+
+main > section, main section + section{
+  float: left;
+  width: 50%;
+}
+
+main section li {
+  float: left;
+  width: 10%;
+  list-style: none;
+}
+
+
+
 
 
 

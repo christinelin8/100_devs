@@ -29,7 +29,47 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
+header {
+  background: black;
+  color: white;
+  height: 80px;
+}
 
+nav * {
+  float: left;
+  width: 10%;
+  color: white;
+  display: block;
+}
+
+nav ul {
+  width: 50%;
+}
+
+nav form input{
+  width: 100%;
+}
+
+main > section {
+  float: left;
+  width: 50%;
+ 
+}
+
+main + section > section  {
+  float: left;
+  width: 33.3333%;
+  border: 2px solid pink;
+}
+
+main section + section > section {
+  float: left;
+  width: 50%;
+  height: 200px;
+  border: 2px solid orange;
+}
+
+ 
 
 
 /******************************************
