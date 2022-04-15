@@ -1,0 +1,120 @@
+header {
+    background: rgb(102, 118, 138);
+    height: 500px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav * {
+    color: white; 
+    float: left;
+    width: 7%;
+    display: block;
+}
+
+nav > a {
+    margin-left: 15px;
+}
+
+nav a + a{
+    margin-left: 0px;
+    margin-right: 33%;
+}
+
+nav h2 {
+    margin-right: 38%;      
+}
+
+nav button {
+    color: blue; 
+    float: right;
+    margin-top: 0%;
+    /* CLASS FOR THIS BUTTON HAS CHANGED, NOW IS CLASS "DONATE" */
+}
+
+header section {
+    text-align: center;
+    width: 50%;
+}
+
+header section h1 {
+    display: inline-block;
+    font-size: 56px;
+    width: 100%;
+    margin-left: 48%;  
+    margin-bottom: 3%;
+}
+
+header section p {
+    font-size: 17.5px;
+    display: inline-block;
+    width: 100%;
+    margin-left: 48%;
+}
+
+header section a {
+    color: white;
+    float: left;
+    width: 195%;
+    font-size: 17.5px;
+}
+
+.second-block {
+    font-family: 'Oswald', sans-serif;
+    height: 400px;
+}
+
+.second-block *{
+    float: left;
+    text-align: center;
+    margin-left: 46%;
+    display: block;
+}
+
+.second-block h1 {
+    font-size: 40px;
+}
+
+.second-block p {
+    float: left;
+    font-size: 17.5;
+    text-align: center;
+    width: 40%;
+    margin-left: 28%;
+}
+
+.third-block {
+    float: left;
+    
+    background: rgb(220, 223, 226);
+}
+
+.third-block > .first-square{
+    float: left;
+   
+    text-align: center;
+    border: 2px solid black;
+}
+
+.third-block .second-square {
+    float: left;
+    
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
