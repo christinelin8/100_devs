@@ -77,6 +77,8 @@ header section a {
 
 .second-block h1 {
     font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 0%;
 }
 
 .second-block p {
@@ -85,26 +87,97 @@ header section a {
     text-align: center;
     width: 40%;
     margin-left: 28%;
+    color: rgb(88, 93, 103);
+}
+
+.second-block + .third-block > section {
+    float: left;
+    width: 48%;
+    text-align: center;
+    height: 400px;
 }
 
 .third-block {
     float: left;
-    
+    width: 100%;
+    height: 650px;
+    font-family: 'Oswald', sans-serif;
     background: rgb(220, 223, 226);
+}
+
+.third-block p {
+    color: rgb(88, 93, 103);
+    margin-left: 170px;
+    width: 50%;
 }
 
 .third-block > .first-square{
     float: left;
-   
+    margin-top: 100px;
     text-align: center;
-    border: 2px solid black;
 }
 
 .third-block .second-square {
     float: left;
-    
+    margin-left: 42px;
+    margin-top: 100px;
     text-align: center;
 }
+
+.first-square img {
+    height: 200px;
+    width: 400px;
+}
+
+.second-square img {
+    height: 200px;
+    width: 400px;
+}
+
+.third-block button {
+    border: 1px solid rgb(88, 93, 103);
+    background: rgb(220, 223, 226);
+    height: 50px;
+    width: 200px;
+}
+
+.fourth-block {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.fourth-block > section {
+    margin-top: 42px;
+    float: left;
+    width: 100%;
+    height: 400px;
+    
+}
+
+.fourth-block h1 {
+    font-size: 40px;
+    margin-bottom: 0%;
+}
+
+.fourth-block p {
+    font-size: 17.5px;
+    color: rgb(88, 93, 103);
+    width: 35%;
+    margin-left: 32%;
+    text-align: center;
+    
+}
+
+.fourth-block button {
+    border: 1px solid rgb(88, 93, 103);
+    background: white;
+    height: 50px;
+    width: 200px;   
+}
+
+
+
+
 
 
 
