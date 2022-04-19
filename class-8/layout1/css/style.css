@@ -20,24 +20,15 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-* {
-  color: black;
-}
 
- nav, main, aside {
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+nav, main, aside {
   float: left;
-  color: black;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-nav {
   width: 20%;
 }
 
@@ -48,22 +39,6 @@ main {
 aside {
   width: 30%;
 }
-
-nav section {
-  width: 10%;
-}
-
-main section  + section section  {
-  width: 33.3333%;
-  float: left;
-  border: 2px solid black;
-}
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
 
 /******************************************
 /* ADDITIONAL STYLES
