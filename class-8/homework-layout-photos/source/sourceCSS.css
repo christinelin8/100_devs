@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+/* --------------------------------------*/
+header {
+    height: 100px;
+    background: rgb(246, 249, 252);
+}
+
+nav *{
+    float: left;
+    display: block;
+}
+
+nav img {
+    margin-left: 3%;
+    margin-right: 8%;
+}
+
+nav ul {
+    width: 50%;
+    margin: 0 15%;
+}
+
+nav li {
+    width: 20%;   
+}
+
+nav a {
+    color: rgb(99, 112, 127);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav button {
+    background: rgb(54, 69, 87);
+    color: white;
+}
+
+main {
+    width: 100%;
+    float: left;  
+    background: rgb(246, 249, 252);
+    
+}
+
+main img {
+    width: 700px;
+}
+
+main > section {
+    float: left;
+    width: 50%;  
+    height: 550px;
+}
+
+main span {
+    font-size: 13px;
+    color: rgb(99, 112, 127);
+    margin-left: 100px;
+}
+
+main h1 {
+    font-size: 40px;
+    width: 50%;
+    margin-left: 100px;
+    color: rgb(51, 67, 85);
+}
+
+main form{
+    margin-left: 100px;
+}
+
+main textarea {
+    float: left;
+    background: rgb(226, 233, 239);
+    border: none;
+    color: rgb(99, 112, 127);
+    height: 35px;
+}
+
+main button {
+    background: rgb(54, 69, 87);
+    color: white;
+    height: 35px;
+    width: 90px;
+}
+
+main p {
+    float: left;
+    font-size: 15px;
+    color: rgb(99, 112, 127);
+    width: 48%;
+    margin-left: 100px;
+}
+
+section > section {
+    float: left;
+    width: 25%;
+    height: 250px;
+    background: rgb(246, 249, 252);  
+}
+
+section > section h3 {
+    margin-left: 100px;
+    color: rgb(51, 67, 85);
+    font-size: 18px;
+}
+
+section > section p {
+    margin-left: 100px;
+    color: rgb(99, 112, 127);
+    font-size: 15px;
+    width: 65%;
+}
+
+section > section a {
+    margin-left: 100px;
+    color: rgb(51, 67, 85);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+section > section img {
+    margin-left: 100px;
+    width: 10%;
+}
+
+footer {
+   float: left;
+   margin-left: 100px;
+}
+
+footer h1 {
+    font-size: 40px;
+    width: 50%;
+    color: rgb(51, 67, 85);
+}
+
+footer p {
+    font-size: 15px;
+    color: rgb(153, 168, 183);
+    width: 55%;
+}
+
+footer section + section section {
+    height: 35px;
+    width: 130%;
+    color: rgb(226, 233, 239);
+}
+

@@ -140,30 +140,49 @@ main section section a {
 .block-four button {
     height: 40px;
     width: 160px;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
     color: rgb(56, 61, 70);
     border: 1px solid rgb(51, 51, 51);
     background: white;
 }
 
-.block-five section {
-    background: rgb(25, 31, 41);
-    
-}
-
-.block-five section > section {
+.block-five .first-block section {
     float: left;
     width: 50%;
-    
 }
 
-.block-five section > section + section {
+.block-five .second-block section {
     float: left;
     width: 50%;
-    font-size: 15px;
-    
-    
 }
+
+.first-block section h3 + h3 {
+    float: left;
+    width: 50%;
+    border: 2px solid pink;
+}
+
+.first-block section li {
+    list-style: none;
+    float: left;
+    width: 70px;
+}
+
+.first-block section + section h3{
+    border: 2px solid pink;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
