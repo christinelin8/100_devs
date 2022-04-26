@@ -169,7 +169,15 @@ footer section + section section {
 @media screen and (max-width: 600px) {
    nav img {
        width: 100px;
-       margin-left: 150px;
+       margin-left: 180px;
+   }
+
+   nav ul {
+       display: none;
+   }
+
+   nav button {
+       display: none;
    }
 
    main > section {
