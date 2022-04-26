@@ -72,7 +72,7 @@ main > section {
 main span {
     font-size: 13px;
     color: rgb(99, 112, 127);
-    margin-left: 100px;
+    margin-left: 105px;
 }
 
 main h1 {
@@ -162,5 +162,55 @@ footer section + section section {
     height: 35px;
     width: 130%;
     color: rgb(226, 233, 239);
+}
+
+/*  media queries below only, still working on this part.... */
+
+@media screen and (max-width: 600px) {
+   nav img {
+       width: 100px;
+       margin-left: 150px;
+   }
+
+   main > section {
+       float: left;
+       width: 100%;   
+   }
+
+   main span, main h1, main p, main form {
+       margin-left: 15%;
+   }
+
+   main h1 {
+       font-size: 40px;
+       width: 75%;
+   }
+
+   main textarea {
+       float: left;
+       width: 75%;
+       margin-bottom: 3%;
+   }
+
+   main button {
+       float: left;
+       width: 75%;
+   }
+
+   main p {
+       font-size: 18px;
+       width: 75%;
+   }
+
+   main img {
+       width: 400px;
+   }
+
+   section > section {
+    float: left;
+    margin-left: 0%;
+    width: 100%;
+    background: rgb(246, 249, 252);  
+}
 }
 
