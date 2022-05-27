@@ -442,13 +442,16 @@ footer section span {
   line-height: 50px;
 }
 
-
-
-
-
-
-
-
-
 /* font-family: 'Rubik', sans-serif;
 font-family: 'Yeseva One', cursive; */
+
+/*RESPONSIVE DESIGN BELOW */
+
+@media screen and (max-width: 600px) {
+
+
+
+
+
+
+}
