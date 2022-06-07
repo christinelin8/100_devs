@@ -18,6 +18,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     width: 100%;
   }
 
@@ -171,7 +172,7 @@ footer section + section section {
 
 /*  media queries below only, still working on this part.... */
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 500px) and (max-width: 600px) {
    nav img {
        width: 100px;
        margin-left: 180px;
@@ -227,7 +228,9 @@ footer section + section section {
     }
 }
 
-@media screen and (min-width: 510px) and (max-width: 768px) {
+/* @media screen and (min-width: 510px) and (max-width: 768px) { */
+
+    @media screen and (min-width: 601px) and (max-width: 1023px) {
 
     header {
         float: left;
