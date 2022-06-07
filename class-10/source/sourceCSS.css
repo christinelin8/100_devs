@@ -172,7 +172,7 @@ footer section + section section {
 
 /*  media queries below only, still working on this part.... */
 
-@media screen and (min-width: 500px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
    nav img {
        width: 100px;
        margin-left: 180px;
